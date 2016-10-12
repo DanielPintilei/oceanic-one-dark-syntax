@@ -1,14 +1,14 @@
 {
-  "name": "one-dark-syntax",
+  "name": "oceanic-one-dark-syntax",
   "theme": "syntax",
-  "version": "1.5.0",
-  "description": "A dark syntax theme",
+  "version": "0.1.0",
+  "description": "One Dark Syntax with the Oceanic Next Palette",
   "keywords": [
     "dark",
-    "blue",
+    "oceanic",
     "syntax"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
+  "repository": "https://github.com/DanielPintilei/oceanic-one-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

@@ -1,26 +1,44 @@
 
+// Palette -----------------------------------
+// @base00: hsl(201, 31%, 15%);
+// 1base01: hsl(210, 14%, 23%);
+// @base02: hsl(208, 12%, 35%);
+@base03: hsl(206, 11%, 44%);
+@base04: hsl(223, 11%, 69%);
+@base05: hsl(219, 13%, 78%);
+// @base06: hsl(218, 20%, 83%);
+// @base07: hsl(218, 27%, 88%);
+@base08: hsl(357, 78%, 65%);
+@base09: hsl(21, 93%, 65%);
+@base0A: hsl(40, 93%, 68%);
+@base0B: hsl(114, 31%, 68%);
+@base0C: hsl(180, 35%, 53%);
+@base0D: hsl(210, 50%, 60%);
+@base0E: hsl(300, 30%, 67%);
+@base0F: hsl(15, 28%, 53%);
+
 // Config -----------------------------------
-@syntax-hue:          220;
-@syntax-saturation:   13%;
-@syntax-brightness:   18%;
+@syntax-hue:          201; // <-@base00 h
+@syntax-saturation:   31%; // <-@base00 s
+@syntax-brightness:   15%; // <-@base00 l
 
 
 // Monochrome -----------------------------------
-@mono-1: hsl(@syntax-hue, 14%, 71%); // default text
-@mono-2: hsl(@syntax-hue,  9%, 55%);
-@mono-3: hsl(@syntax-hue, 10%, 40%);
+@mono-1: @base05; // default text
+@mono-2: @base04;
+@mono-3: @base03;
 
 // Colors -----------------------------------
-@hue-1:   hsl(187, 47%, 55%); // <-cyan
-@hue-2:   hsl(207, 82%, 66%); // <-blue
-@hue-3:   hsl(286, 60%, 67%); // <-purple
-@hue-4:   hsl( 95, 38%, 62%); // <-green
+@hue-1:   @base0C;
+@hue-2:   @base0D;
+@hue-3:   @base0E;
+@hue-4:   @base0B;
 
-@hue-5:   hsl(355, 65%, 65%); // <-red 1
-@hue-5-2: hsl(  5, 48%, 51%); // <-red 2
+@hue-5:   @base08;
+@hue-5-2: @base0F;
 
-@hue-6:   hsl( 29, 54%, 61%); // <-orange 1
-@hue-6-2: hsl( 39, 67%, 69%); // <-orange 2
+@hue-6:   @base09;
+@hue-6-2: @base0A;
 
 
 // Base colors -----------------------------------
