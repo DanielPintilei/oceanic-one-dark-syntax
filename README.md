@@ -1,3 +1,3 @@
 ## Oceanic One Dark Syntax theme
 
-![oceanic-one-dark-syntax](https://cloud.githubusercontent.com/assets/378023/7783203/49271ef6-0174-11e5-8eb1-d80b8d34a0e3.png)
+![oceanic-one-dark-syntax](https://github.com/DanielPintilei/oceanic-one-dark-syntax/blob/screenshots/screenshots/oceanic-one-dark-syntax.PNG?raw=true)
